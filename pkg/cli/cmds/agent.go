@@ -159,7 +159,7 @@ var (
 		Name:        "pause-image",
 		Usage:       "(agent/runtime) Customized pause image for containerd or docker sandbox",
 		Destination: &AgentConfig.PauseImage,
-		Value:       "rancher/mirrored-pause:3.6",
+		Value:       "carvicsforth/pause:v3.10-v1.31.1",
 	}
 	SnapshotterFlag = &cli.StringFlag{
 		Name:        "snapshotter",
